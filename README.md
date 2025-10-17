@@ -20,12 +20,11 @@ iAnctChinese 是一个集成 Flutter 前端与 FastAPI 后端的古汉语文本�
 ```
 
 ## 运行说明
-
+自行下载模型放入该路径，例如qwen3-0.6b
+backend\model\qwen3-0.6b
 ### 后端
 ```powershell
 cd D:\JIEDUI\backend
-# 如果模型不在 backend\model\qwen3-0.6b，请设置模型路径：
-$env:QWEN_MODEL_PATH = "D:\JIEDUI\model\qwen3-0.6b"
 python -m uvicorn app.main:app --reload
 ```
 
