@@ -33,6 +33,7 @@ migrate_working_dir/
 /build/
 /coverage/
 backend/model/
+windows/flutter/ephemeral/
 
 # Editor configs
 .vscode/
